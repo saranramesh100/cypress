@@ -1,0 +1,8 @@
+{
+"username":"student",
+"password":"Password123",
+"urlcontain": "practicetestautomation.com/logged-in-successfully/",
+"pagecontain":"Logged In Successfully"
+  
+}
+  
