@@ -8,8 +8,9 @@ describe('swaglabs', () => {
   })
     it('cart check passes', () => {
       cy.visit(Cypress.env('test').url)
-      cy.get('[name="user-name"]').type('standard_user')
-      cy.get('[name="password"]').type('secret_sauce')
+      cy.get('[name="user-name"]').type(Cypress.env('test').username)
+      cy.get('[name="password"]').type(Cypress.env('test').password)
+     
       cy.get('[class="btn_action"]').click()
        tdata.items.forEach((prods)=>{
         cy.addcart(prods)

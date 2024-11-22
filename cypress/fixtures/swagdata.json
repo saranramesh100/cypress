@@ -1,0 +1,16 @@
+{
+      "positive":{
+        "username":"student",
+        "password":"Password123"
+    },
+    
+    "negative1":{
+        "username":"incorrect",
+        "password":"Password123"
+    },
+    
+    "negative2":{
+        "username":"student",
+        "password":"incorrectPassword"
+    }
+}
